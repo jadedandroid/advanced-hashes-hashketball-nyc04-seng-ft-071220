@@ -1,4 +1,5 @@
-# Write your code below game_hash
+require "pry"
+#Write your code below game_hash
 def game_hash
   {
     home: {
@@ -126,4 +127,15 @@ def game_hash
   }
 end
 
+def player
+   game_hash.each
+  
+end
+
+def num_points_scored
+  game_hash
+end
+
+# binding.pry
+# 0
 # Write code here
